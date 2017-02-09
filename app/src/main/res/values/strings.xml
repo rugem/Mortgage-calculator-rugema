@@ -14,4 +14,38 @@
     <string name="monthly_hoa">Monthly HOA:  </string>
     <string name="calculate_btn">Calculate</string>
     <string name="ins_yrs">$/yr</string>
+    <string name="payment_with_pmi">Payment with PMI</string>
+    <string name="pymt_pmi">0</string>
+    <string name="title">Mortgage Loan Information</string>
+    <string name="mortg_summary">Mortgage Summary</string>
+    <string-array name="months">
+        <item>Jan</item>
+        <item>Feb</item>
+        <item>Mars</item>
+        <item>Apr</item>
+        <item>May</item>
+        <item>Jun</item>
+        <item>Jul</item>
+        <item>Aug</item>
+        <item>Sep</item>
+        <item>Oct</item>
+        <item>Nov</item>
+        <item>Dec</item>
+    </string-array>
+    <integer-array name="arr_years">
+        <item>2017</item>
+        <item>2018</item>
+        <item>2019</item>
+        <item>2020</item>
+        <item>2021</item>
+        <item>2022</item>
+        <item>2023</item>
+        <item>2024</item>
+        <item>2025</item>
+        <item>2026</item>
+        <item>2027</item>
+        <item>2028</item>
+        <item>2029</item>
+        <item>2030</item>
+    </integer-array>
 </resources>
