@@ -18,7 +18,8 @@
     <string name="pymt_pmi">0</string>
     <string name="title">Mortgage Loan Information</string>
     <string name="mortg_summary">Mortgage Summary</string>
-    <string-array name="months">
+    <string name="pmnt_after_years">After Months</string>
+    <string-array name="arr_months">
         <item>Jan</item>
         <item>Feb</item>
         <item>Mars</item>
@@ -32,7 +33,7 @@
         <item>Nov</item>
         <item>Dec</item>
     </string-array>
-    <integer-array name="arr_years">
+    <string-array name="arr_years">
         <item>2017</item>
         <item>2018</item>
         <item>2019</item>
@@ -47,5 +48,5 @@
         <item>2028</item>
         <item>2029</item>
         <item>2030</item>
-    </integer-array>
+    </string-array>
 </resources>
