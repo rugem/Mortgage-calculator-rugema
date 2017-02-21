@@ -12,47 +12,65 @@
     tools:context="edu.cofc.mortgage_calculator_rugema.MortgageSummaryActivity">
 
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/linearLayout"
+        android:layout_centerHorizontal="true">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mortgage Repayment Summary"
+            android:textStyle="bold"
+            android:textSize="@dimen/title_dimen" />
+    </LinearLayout>
+
     <TextView
         android:text="@string/payment_with_pmi"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/pmntWithPMILabel"
-        android:layout_below="@+id/pmntWithPMIValue"
+        android:layout_marginTop="37dp"
+        android:layout_below="@+id/linearLayout"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
-
-    <TextView
-        android:text="@string/pymt_pmi"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/pmntWithPMIValue"
-        android:layout_marginRight="51dp"
-        android:layout_marginEnd="51dp"
-        android:layout_alignParentTop="true"
-        android:layout_alignRight="@+id/pmntWithPMILabel"
-        android:layout_alignEnd="@+id/pmntWithPMILabel" />
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="12dp"
+        android:layout_marginStart="12dp" />
 
     <TextView
         android:text="@string/pmnt_after_years"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginRight="47dp"
+        android:layout_marginEnd="47dp"
+        android:id="@+id/pmntAfterYrsViewLabel"
+        android:layout_alignBaseline="@+id/pmntWithPMILabel"
         android:layout_alignBottom="@+id/pmntWithPMILabel"
         android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true"
-        android:layout_marginRight="49dp"
-        android:layout_marginEnd="49dp"
-        android:id="@+id/pmntAfterYrsViewLabel"
-        android:layout_below="@+id/pmntAfterYrsValue" />
+        android:layout_alignParentEnd="true" />
 
     <TextView
         android:text="@string/pymt_pmi"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/pmntAfterYrsValue"
-        android:layout_alignParentTop="true"
-        android:layout_alignLeft="@+id/pmntAfterYrsViewLabel"
-        android:layout_alignStart="@+id/pmntAfterYrsViewLabel"
-        android:layout_marginLeft="35dp"
-        android:layout_marginStart="35dp" />
+        android:layout_marginRight="29dp"
+        android:layout_marginEnd="29dp"
+        android:layout_below="@+id/pmntWithPMIValue"
+        android:layout_alignRight="@+id/pmntAfterYrsViewLabel"
+        android:layout_alignEnd="@+id/pmntAfterYrsViewLabel" />
+
+    <TextView
+        android:text="@string/pymt_pmi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/pmntWithPMIValue"
+        android:layout_marginRight="42dp"
+        android:layout_marginEnd="42dp"
+        android:layout_below="@+id/linearLayout"
+        android:layout_alignRight="@+id/pmntWithPMILabel"
+        android:layout_alignEnd="@+id/pmntWithPMILabel" />
+
 
 </RelativeLayout>

@@ -15,8 +15,16 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".MonthlyBiWeeklyActivity" />
-        <activity android:name=".MortgageSummaryActivity"></activity>
+        <activity android:name=".MonthlyBiWeeklyActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />;
+            </intent-filter>
+        </activity>
+        <activity android:name=".MortgageSummaryActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />;
+            </intent-filter>
+        </activity>
     </application>
 
 </manifest>
